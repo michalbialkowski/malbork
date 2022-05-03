@@ -1,0 +1,69 @@
+header .accordion .accordion-body {
+  position: relative;
+}
+header .accordion .accordion-body:before, header .accordion .accordion-body:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  z-index: 0;
+}
+header .accordion .accordion-body:before {
+  left: 0;
+  background: #f8f9fa;
+}
+header .accordion .accordion-body:after {
+  right: 0;
+  background: #fff;
+}
+header .accordion .accordion-body > .accordion--content {
+  z-index: 10;
+  position: relative;
+}
+header .accordion .accordion-body > .accordion--content > div > .row > div:first-child {
+  background: #f8f9fa;
+}
+header .accordion .accordion-body > .accordion--content > div > .row > div:first-child + div {
+  background: #fff;
+}
+header .accordion .accordion-body > .accordion--content > div > .row > div:first-child + div a {
+  white-space: normal;
+}
+
+footer a {
+  white-space: normal;
+}
+
+@media (max-width: 991.98px) {
+  header .size--logo--width {
+    width: 180px !important;
+  }
+  header .size--logo--height {
+    height: 110px !important;
+  }
+  header .size--buttons--width {
+    width: 180px;
+  }
+  header .size--menu--height {
+    height: 110px;
+  }
+  header .bg--white {
+    background: white !important;
+  }
+}
+@media (min-width: 992px) {
+  header .size--logo--width {
+    width: 180px !important;
+  }
+  header .size--logo--height {
+    height: 110px !important;
+  }
+  header .size--menu--width {
+    width: 180px;
+  }
+  header .size--sidecol {
+    width: 180px !important;
+    min-width: 180px !important;
+  }
+}
