@@ -8698,6 +8698,9 @@
   top: 0;
   object-fit: cover;
 }
+.ratio > * > img.contain {
+  object-fit: contain;
+}
 .ratio.ratio-5-1:after {
   padding-bottom: calc(100% * 1 / 5);
 }
@@ -8769,6 +8772,9 @@
     left: 0;
     top: 0;
     object-fit: cover;
+  }
+  .ratio-sm > * > img.contain {
+    object-fit: contain;
   }
 
   .ratio.ratio-sm-5-1:after,
@@ -8852,6 +8858,9 @@
     left: 0;
     top: 0;
     object-fit: cover;
+  }
+  .ratio-md > * > img.contain {
+    object-fit: contain;
   }
 
   .ratio.ratio-md-5-1:after,
@@ -8948,6 +8957,9 @@
     left: 0;
     top: 0;
     object-fit: cover;
+  }
+  .ratio-lg > * > img.contain {
+    object-fit: contain;
   }
 
   .ratio.ratio-lg-5-1:after,
@@ -9057,6 +9069,9 @@
     left: 0;
     top: 0;
     object-fit: cover;
+  }
+  .ratio-xl > * > img.contain {
+    object-fit: contain;
   }
 
   .ratio.ratio-xl-5-1:after,
@@ -9179,6 +9194,9 @@
     left: 0;
     top: 0;
     object-fit: cover;
+  }
+  .ratio-xxl > * > img.contain {
+    object-fit: contain;
   }
 
   .ratio.ratio-xxl-5-1:after,
