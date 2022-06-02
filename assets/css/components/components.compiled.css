@@ -67,3 +67,29 @@ footer a {
     min-width: 180px !important;
   }
 }
+
+#map svg .st0 {
+  fill: #FFFFFE;
+}
+#map svg .st1 {
+  fill: #B7D493;
+}
+#map svg .st2 {
+  fill: #E9E5DD;
+}
+#map svg .st3 {
+  fill: #BADAF4;
+}
+#map svg .st4 {
+  fill: #D4D1CA;
+}
+#map svg .st1.active,
+#map svg .st1:hover {
+  cursor: pointer;
+  fill: #85B649 !important;
+}
+#map svg .st4.active,
+#map svg .st4:hover {
+  cursor: pointer;
+  fill: #A59E90 !important;
+}
