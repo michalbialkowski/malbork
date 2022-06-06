@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/kwidzyn/aktualnosci.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/kontakt.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/kontakt-podstrona.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/muzeum.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/muzeum-podstrona.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/podstrona.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/zwiedzajacy.html</loc>
+    </url>
+    <url>
+        <loc>/kwidzyn/zwiedzajacy-podstrona.html</loc>
+    </url>
+    <url>
         <loc>/_components.html</loc>
     </url>
     <url>

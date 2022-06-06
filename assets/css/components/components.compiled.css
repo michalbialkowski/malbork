@@ -83,13 +83,11 @@ footer a {
 #map svg .st4 {
   fill: #D4D1CA;
 }
-#map svg .st1.active,
-#map svg .st1:hover {
+#map svg [data-reactive=clickable].st1.active, #map svg [data-reactive=clickable].st1:hover {
   cursor: pointer;
   fill: #85B649 !important;
 }
-#map svg .st4.active,
-#map svg .st4:hover {
+#map svg [data-reactive=clickable].st4.active, #map svg [data-reactive=clickable].st4:hover {
   cursor: pointer;
   fill: #A59E90 !important;
 }
